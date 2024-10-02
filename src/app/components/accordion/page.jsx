@@ -2,7 +2,7 @@
 import { useState } from "react";
 import "./style.css";
 
-const Accordions = ({ title, info }) => {
+const Accordions = ({ title:any, info:any }) => {
   const [data, setdata] = useState(false);
   return (
     <>
