@@ -1,0 +1,40 @@
+.btn{
+        background-color: blue;
+        color: white;
+        padding: 0.5rem;
+        border-radius: 10px;
+        margin-left: 3px;
+        margin-top: 5px;
+}
+.btn:hover{
+      background-color: red;
+      color: white;
+      transform: scale(1.1,1.1);
+}
+
+.txt{
+        background-color: rgb(224, 168, 168);
+        padding: 1rem;
+        width: 200px;
+        text-align: center;
+        margin-left: 43%;
+        
+}
+.content{
+        /* width:35rem; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem;
+}
+.w{
+        padding: 1rem;
+        width: 32rem;
+}
+.img{
+        transition:  transform  linear 0.5s;
+}
+.img:hover{
+        transform: skew(20deg ,-20deg)
+}

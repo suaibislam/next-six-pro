@@ -1,0 +1,24 @@
+
+
+.card{
+       
+        height: 7rem;
+        width: 30rem;
+        
+        background-color: rgb(240, 237, 237);
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content:first baseline;
+       gap: 3rem;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.img .image{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        margin: 10px;
+        
+}
