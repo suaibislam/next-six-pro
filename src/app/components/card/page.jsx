@@ -2,7 +2,7 @@
 import "./card.css";
 import Image from "next/image";
 
-const page = ({ people }) => {
+const page = ( people ) => {
   // console.log(people)
 
   // console.log(people.map((p)=>p.id));
